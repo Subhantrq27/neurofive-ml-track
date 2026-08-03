@@ -16,6 +16,12 @@ detecting outliers with a boxplot) and visualizing it with matplotlib/seaborn:
 a histogram, boxplot, bar chart, and correlation heatmap, plus a written
 answer on which feature most affects survival.
 
+### [TASK3](./TASK3) — Predict Titanic Survival: First Classification Model
+Training a Logistic Regression model with scikit-learn to predict survival:
+train/test split, one-hot encoding of categorical columns, evaluation with
+accuracy score and a confusion matrix, and a written interpretation of the
+results. **Final accuracy: 81%.**
+
 ## Dataset
 
 [Titanic - Machine Learning from Disaster](https://kaggle.com/competitions/titanic)
@@ -28,3 +34,4 @@ https://kaggle.com/competitions/titanic, 2012. Kaggle.
 - Jupyter Notebook
 - pandas, NumPy
 - matplotlib, seaborn
+- scikit-learn

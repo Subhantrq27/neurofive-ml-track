@@ -22,11 +22,17 @@ train/test split, one-hot encoding of categorical columns, evaluation with
 accuracy score and a confusion matrix, and a written interpretation of the
 results. **Final accuracy: 81%.**
 
-## Dataset
+### [TASK4](./TASK4) — House Price Prediction with Linear Regression
+Training a Linear Regression model on the Kaggle "House Prices - Advanced
+Regression Techniques" dataset to predict `SalePrice`: feature selection,
+train/test split, evaluation with RMSE and R², a predicted-vs-actual scatter
+plot, and a plain-English explanation of the R² score. **RMSE ≈ $39,763,
+R² ≈ 0.79.**
 
-[Titanic - Machine Learning from Disaster](https://kaggle.com/competitions/titanic)
-(Kaggle). Citation: Will Cukierski. Titanic - Machine Learning from Disaster.
-https://kaggle.com/competitions/titanic, 2012. Kaggle.
+## Dataset Sources
+
+- [Titanic - Machine Learning from Disaster](https://kaggle.com/competitions/titanic) (Kaggle)
+- [House Prices - Advanced Regression Techniques](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques) (Kaggle)
 
 ## Toolkit
 

@@ -35,10 +35,19 @@ an explanation of why accuracy alone can mislead on imbalanced data, and
 hyperparameter tuning (`C`, `solver`) with `GridSearchCV`, compared against
 the baseline in a before/after table.
 
+### [TASK6](./TASK6) — Customer Churn Prediction: Working with a Business Problem
+Predicting telecom customer churn on the Kaggle Telco Customer Churn dataset:
+EDA on contract type/tenure/monthly charges, handling categorical variables
+and noting class imbalance, comparing a Decision Tree vs. Logistic Regression,
+identifying the top 3 churn drivers via `.feature_importances_`, and a
+business summary for a non-technical manager. **Logistic Regression: 80.6%
+accuracy; Decision Tree: 79.4% accuracy.**
+
 ## Dataset Sources
 
 - [Titanic - Machine Learning from Disaster](https://kaggle.com/competitions/titanic) (Kaggle)
 - [House Prices - Advanced Regression Techniques](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques) (Kaggle)
+- [Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) (Kaggle)
 
 ## Toolkit
 

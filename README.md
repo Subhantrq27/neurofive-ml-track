@@ -29,6 +29,12 @@ train/test split, evaluation with RMSE and R², a predicted-vs-actual scatter
 plot, and a plain-English explanation of the R² score. **RMSE ≈ $39,763,
 R² ≈ 0.79.**
 
+### [TASK5](./TASK5) — Model Evaluation & Tuning: Beyond Accuracy
+Revisiting the Task 3 classification model with Precision/Recall/F1 metrics,
+an explanation of why accuracy alone can mislead on imbalanced data, and
+hyperparameter tuning (`C`, `solver`) with `GridSearchCV`, compared against
+the baseline in a before/after table.
+
 ## Dataset Sources
 
 - [Titanic - Machine Learning from Disaster](https://kaggle.com/competitions/titanic) (Kaggle)

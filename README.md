@@ -43,6 +43,20 @@ identifying the top 3 churn drivers via `.feature_importances_`, and a
 business summary for a non-technical manager. **Logistic Regression: 80.6%
 accuracy; Decision Tree: 79.4% accuracy.**
 
+### [TASK7](./TASK7) — Build a Proper ML Pipeline with Feature Engineering
+Building a single `sklearn.pipeline.Pipeline` with `ColumnTransformer`
+(`StandardScaler` for numerical columns, `OneHotEncoder` for categorical),
+chained with a Logistic Regression model. Adds 2 engineered features
+(`FamilySize`, `IsAlone`), compares before/after performance, and saves the
+final pipeline with `joblib` — confirming it reloads and predicts correctly.
+
+### [TASK7](./TASK7) — Build a Proper ML Pipeline with Feature Engineering
+Replacing manual preprocessing with a single `sklearn.pipeline.Pipeline`
+using `ColumnTransformer` (`StandardScaler` for numerical columns,
+`OneHotEncoder` for categorical columns), adding 2 engineered features
+(`FamilySize`, `IsAlone`), comparing before/after performance, and saving
+the final fitted pipeline with `joblib`.
+
 ## Dataset Sources
 
 - [Titanic - Machine Learning from Disaster](https://kaggle.com/competitions/titanic) (Kaggle)

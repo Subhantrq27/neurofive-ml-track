@@ -50,6 +50,14 @@ chained with a Logistic Regression model. Adds 2 engineered features
 (`FamilySize`, `IsAlone`), compares before/after performance, and saves the
 final pipeline with `joblib` — confirming it reloads and predicts correctly.
 
+### [TASK8](./TASK8) — Ensemble Learning: Random Forest vs. XGBoost
+Training and comparing `RandomForestClassifier` and `XGBClassifier` against
+the earlier Logistic Regression baseline, comparing feature importances
+between the two ensemble models, and explaining how bagging (Random Forest)
+differs from boosting (XGBoost). **Result: Logistic Regression (81.0%)
+actually outperformed Random Forest (79.3%) and XGBoost (78.2%) on this
+small dataset** — a real finding, not an error.
+
 ### [TASK7](./TASK7) — Build a Proper ML Pipeline with Feature Engineering
 Replacing manual preprocessing with a single `sklearn.pipeline.Pipeline`
 using `ColumnTransformer` (`StandardScaler` for numerical columns,

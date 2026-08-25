@@ -58,6 +58,14 @@ differs from boosting (XGBoost). **Result: Logistic Regression (81.0%)
 actually outperformed Random Forest (79.3%) and XGBoost (78.2%) on this
 small dataset** — a real finding, not an error.
 
+### [TASK9](./TASK9) — Handling Imbalanced & Messy Real-World Data
+Working with the Credit Card Fraud Detection dataset (284,807 transactions,
+only 0.17% fraud) — an extreme class imbalance. Explains why accuracy is
+misleading here, applies class weighting and SMOTE oversampling, and
+compares Precision/Recall/F1 before and after. **Recall jumped from 64% to
+92% with both techniques, at a real cost to precision — a textbook
+precision/recall trade-off.**
+
 ### [TASK7](./TASK7) — Build a Proper ML Pipeline with Feature Engineering
 Replacing manual preprocessing with a single `sklearn.pipeline.Pipeline`
 using `ColumnTransformer` (`StandardScaler` for numerical columns,
@@ -70,6 +78,7 @@ the final fitted pipeline with `joblib`.
 - [Titanic - Machine Learning from Disaster](https://kaggle.com/competitions/titanic) (Kaggle)
 - [House Prices - Advanced Regression Techniques](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques) (Kaggle)
 - [Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) (Kaggle)
+- [Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) (Kaggle)
 
 ## Toolkit
 
@@ -78,3 +87,4 @@ the final fitted pipeline with `joblib`.
 - pandas, NumPy
 - matplotlib, seaborn
 - scikit-learn
+- xgboost, imbalanced-learn (SMOTE)

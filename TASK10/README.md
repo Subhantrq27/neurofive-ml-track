@@ -8,8 +8,7 @@ scikit-learn `Pipeline` with `ColumnTransformer` + 2 engineered features:
 `FamilySize`, `IsAlone`). Accuracy on held-out test data: **80.4%**
 (F1-score: 0.729).
 
-**Live app:** *[add your Streamlit Community Cloud link here after deploying —
-see steps below]*
+**Live app:** https://task10-dmsnjz2s25mb53dbgmyjza.streamlit.app/
 
 ## Files
 

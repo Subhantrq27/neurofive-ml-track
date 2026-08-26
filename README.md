@@ -66,6 +66,13 @@ compares Precision/Recall/F1 before and after. **Recall jumped from 64% to
 92% with both techniques, at a real cost to precision — a textbook
 precision/recall trade-off.**
 
+### [TASK10](./TASK10) — Deploy Your Model as a Live Web App
+A Streamlit web app that predicts Titanic survival using the best-performing
+pipeline (Logistic Regression, 80.4% accuracy), deployed live on Streamlit
+Community Cloud. Users enter passenger details and get an instant prediction
+with confidence score.
+**Live app: https://task10-dmsnjz2s25mb53dbgmyjza.streamlit.app/**
+
 ### [TASK7](./TASK7) — Build a Proper ML Pipeline with Feature Engineering
 Replacing manual preprocessing with a single `sklearn.pipeline.Pipeline`
 using `ColumnTransformer` (`StandardScaler` for numerical columns,

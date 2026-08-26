@@ -1,12 +1,18 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import os
 
 st.set_page_config(page_title="Titanic Survival Predictor", page_icon="🚢", layout="centered")
 
+# Resolve the model path relative to this script's own location, so it
+# works no matter what the current working directory is when Streamlit
+# Cloud (or anyone else) launches the app.
+MODEL_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "titanic_survival_pipeline.joblib")
+
 @st.cache_resource
 def load_model():
-    return joblib.load("titanic_survival_pipeline.joblib")
+    return joblib.load(MODEL_PATH)
 
 model = load_model()
 

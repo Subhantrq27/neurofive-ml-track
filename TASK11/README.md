@@ -1,6 +1,6 @@
 # Capstone — Forecasting Smog Before It Happens (Pakistan Air Quality Prediction)
 
-**Live app:** *[add your Streamlit Community Cloud link here after deploying — see steps below]*
+**Live app:** https://neurofive-ml-track-emehttm4izvhuzmnfemywv.streamlit.app/
 
 ## Problem Statement
 
